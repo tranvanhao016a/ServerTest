@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gnosis-8eee0": {
+      "hosting": {
+        "User": [
+          "gnosis-8eee0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gnosis-8eee0"
+  }
+}

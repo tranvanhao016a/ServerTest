@@ -1,0 +1,114 @@
+
+
+//test
+#browse {
+  color: black;
+  margin-top: 5rem;
+
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  place-items: center;
+}
+
+#browse_box {
+  padding: 20px;
+}
+#bar {
+  display: flex;
+  flex-direction: row;
+  //justify-content: center;
+}
+#btn {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+}
+.fire_icon {
+    color: red; /* Màu đỏ mặc định */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+  }
+  
+  .fire_icon:hover {
+    color: orange; /* Màu cam khi hover */
+  }
+.all,
+.popular,
+.web,
+.computer,
+.english,
+.public {
+  padding: 12px 42px;
+  border-radius: 20px;
+  border: 0.5px solid #d4d4d4;
+  margin-right: 15px;
+  background-color: white;
+}
+.popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+  }
+}
+
+#main{
+    transition: margin-left 0.3s;
+}
+.outer_card {
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  justify-items: center;
+
+}
+
+.inner_card {
+  text-align: start;
+  margin-top: 20px;
+  word-wrap: break-word;
+  background-color: FDFDF6;
+  cursor: pointer;
+}
+
+.imgicon {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: auto; 
+  .circle {
+    border-radius: 50%;
+    background-color: rgba(212, 212, 212, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.25rem;
+  }
+
+}
+
+
+.product_image {
+  height: 200px;
+  width: 180px;
+  border-bottom: 0.5px solid #d4d4d4;
+  border-radius: 10px;
+}
+
+.product_name {
+  margin: 10px 0;
+}
+
+.product_category,
+.product_price {
+  color: #888;
+}
+
+img {
+  border-radius: 10px;
+}
